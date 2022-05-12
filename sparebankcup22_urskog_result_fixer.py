@@ -138,11 +138,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Bypasses a bug in the result compilation for Sparebankcupen 2022",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('input', type=str, help="Path to the input xml file.")
-    parser.add_argument('output', type=str, help="Path to the output xml file (cannot be the same as input)")
+    parser.add_argument('output', type=str, help="Path to the output xml file (cannot be the same as input).")
     parser.add_argument('--ftp_user', type=str, default=None,
-                        help="Username for 'ftp.livevisning.com' - will not use FTP if None")
+                        help="Username for 'ftp.livevisning.com' - will not use FTP if None.")
     parser.add_argument('--ftp_pass', type=str, default='',
-                        help="Password for 'ftp.livevisning.com'")
+                        help="Password for 'ftp.livevisning.com.'")
 
     # Parse arguments.
     args = parser.parse_args()

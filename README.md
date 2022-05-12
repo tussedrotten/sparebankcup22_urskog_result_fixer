@@ -57,3 +57,6 @@ C:\<PYTHON_DIR>\python.exe ^
  "C:\result\fixed\stevneoppgjør.xml"
 pause
 ```
+
+### Stopping the program
+Stop the program by pressing `Ctrl+c` in the terminal window.
